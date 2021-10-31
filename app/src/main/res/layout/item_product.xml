@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16sp"
+    android:layout_marginEnd="16sp"
+    android:layout_marginBottom="16sp"
+    android:focusable="false"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/rlItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/post_image"
+            android:layout_width="130sp"
+            android:layout_height="140sp"
+            android:background="@color/white"
+            android:padding="1sp"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/todo" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:paddingTop="4sp"
+            android:paddingBottom="8sp">
+
+            <TextView
+                android:id="@+id/postTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+            <RatingBar
+                android:id="@+id/postRating"
+                android:layout_below="@id/postDiscountPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2sp"
+                android:progressTint="@color/yellow"
+                android:rating="4"
+                style="@style/Widget.AppCompat.RatingBar.Small"/>
+
+            <TextView
+                android:id="@+id/postDiscountPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/postTitle"
+                android:layout_marginTop="2sp"
+                android:singleLine="true"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:text="₹100" />
+
+            <TextView
+                android:id="@+id/postOriginalPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/postDiscountPrice"
+                android:layout_marginStart="4sp"
+                android:layout_marginEnd="4sp"
+                android:layout_marginBottom="1dp"
+                android:layout_toEndOf="@id/postDiscountPrice"
+                android:singleLine="true"
+
+                android:textColor="@color/grey2"
+                android:textSize="14sp"
+                tools:text="₹150" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

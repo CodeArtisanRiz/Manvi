@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Manvi</string>
+
+    <!--<string name="url">https://t3gclientarea.tk/wp-json/wp/v2/posts?per_page=10</string>-->
+    <!--<string name="web_url">https://manvi.ml/wc-api/v3/products/?filter[limit]=1&amp;consumer_key=ck_fb03ed10c16fa36797cf5b28eac81e5c46a4a5ca&amp;consumer_secret=cs_2c7f0d85776e65ce22463ab0c49692f296909487</string>-->
+    <string name="web_url">https://manvi.ml/wp-json/wc/v3/products/?page=2&amp;consumer_key=ck_fb03ed10c16fa36797cf5b28eac81e5c46a4a5ca&amp;consumer_secret=cs_2c7f0d85776e65ce22463ab0c49692f296909487</string>
+
+
+    <string name="base_url">https://manvi.ml/</string>
+    <string name="api">wp-json/wc/v3/</string>
+    <string name="products">products?</string>
+    <string name="consumer_key">ck_fb03ed10c16fa36797cf5b28eac81e5c46a4a5ca</string>
+    <string name="consumer_secret">cs_2c7f0d85776e65ce22463ab0c49692f296909487</string>
+    <!--    page=5&consumer_key=ck_fb03ed10c16fa36797cf5b28eac81e5c46a4a5ca&consumer_secret=cs_2c7f0d85776e65ce22463ab0c49692f296909487-->
+    <string name="regular_price"><Strike>regular_price</Strike></string>
+    <string name="todo">TODO</string>
+</resources>
