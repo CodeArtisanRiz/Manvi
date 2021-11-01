@@ -16,7 +16,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.t3g.manvi.activity.WebActivity;
-import com.t3g.manvi.modal.Post;
+import com.t3g.manvi.modal.ProductModal;
 import com.t3g.manvi.R;
 
 import java.util.List;
@@ -24,9 +24,9 @@ import java.util.List;
 public class PostsAdapter extends RecyclerView.Adapter<PostsAdapter.ViewHolder> {
 
 
-    List<Post> allPosts;
+    List<ProductModal> allPosts;
 
-    public PostsAdapter(List<Post> allPosts){
+    public PostsAdapter(List<ProductModal> allPosts){
         this.allPosts = allPosts;
     }
 

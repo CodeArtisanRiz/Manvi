@@ -50,7 +50,7 @@ public class OnBoardingActivity extends AppCompatActivity {
         SharedPreferences prefs = getSharedPreferences("prefs",MODE_PRIVATE);
         boolean firstStart = prefs.getBoolean("firstStart",true);
         if(!firstStart){
-            startActivity(new Intent(OnBoardingActivity.this, MainActivity.class));
+            startActivity(new Intent(OnBoardingActivity.this, AllPostActivity.class));
         }
 
 
@@ -70,7 +70,7 @@ public class OnBoardingActivity extends AppCompatActivity {
                     SharedPreferences.Editor editor = prefs.edit();
                     editor.putBoolean("firstStart",false);
                     editor.apply();
-                    startActivity(new Intent(OnBoardingActivity.this, MainActivity.class));
+                    startActivity(new Intent(OnBoardingActivity.this, AllPostActivity.class));
 
                 }else {
                     mSlideViewPager.setCurrentItem(mCurrentPage + 1);

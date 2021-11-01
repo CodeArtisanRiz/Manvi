@@ -33,7 +33,7 @@ public class SplashActivity extends AppCompatActivity {
 //                finish();
                 if(!firstStart){
                     startActivity(new Intent(
-                            SplashActivity.this, MainActivity.class));
+                            SplashActivity.this, DirectorActivity.class));
                 }else{
                     startActivity(new Intent(
                             SplashActivity.this, OnBoardingActivity.class));

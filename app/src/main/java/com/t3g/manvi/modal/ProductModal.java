@@ -1,6 +1,6 @@
 package com.t3g.manvi.modal;
 
-public class Post {
+public class ProductModal {
     private String title;
     private String targetUrl;
     private String content;
