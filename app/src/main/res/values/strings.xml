@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Manvi</string>
+    <string name="tag">Fashion and Lifestyle</string>
+    <string name="brand">t3g\'s</string>
 
     <!--<string name="url">https://t3gclientarea.tk/wp-json/wp/v2/posts?per_page=10</string>-->
     <!--<string name="web_url">https://manvi.ml/wc-api/v3/products/?filter[limit]=1&amp;consumer_key=ck_fb03ed10c16fa36797cf5b28eac81e5c46a4a5ca&amp;consumer_secret=cs_2c7f0d85776e65ce22463ab0c49692f296909487</string>-->

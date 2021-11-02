@@ -15,9 +15,25 @@
 
 
 
-    <color name="colorPrimary">#FC4253</color>
-    <color name="colorPrimaryDark">#FC4253</color>
-    <color name="colorAccent">#FDABAE</color>
+
     <color name="yellow">#EAF82F</color>
+
+<!--    Slide-->
+    <color name="colorPrimary">#efeeee</color>
+    <color name="colorPrimaryDark">#363E53</color>
+    <color name="cld">#1E5DFF</color>
+    <color name="colorAccent">#000</color>
+    <color name="transparent">#00000000</color>
+    <color name="dark_grey">#DCDCDC</color>
+    <color name="green_50">#4F971C</color>
+<!--    <color name="grey">#BFBFBF</color>-->
+    <color name="red">#fe4e4e</color>
+    <color name="holo_green">#82DF4F</color>
+    <color name="dark_grey_blue">#33475c</color>
+    <color name="blue">#304FFE</color>
+    <color name="black_transparent">#40000000</color>
+    <color name="splash_text">#7ffb00</color>
+    <color name="whatsapp_color">#3DE25C</color>
+    <color name="bg_color">#1D5481</color>
 
 </resources>

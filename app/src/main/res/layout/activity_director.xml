@@ -12,6 +12,12 @@
     android:orientation="vertical">
 
     <Button
+        android:id="@+id/nav_act"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Navigation Activity"/>
+
+    <Button
         android:id="@+id/main_act"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -21,6 +27,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Home Activity"/>
+    <Button
+        android:id="@+id/img_slide_act"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Image Slide Activity"/>
     <Button
         android:id="@+id/all_post_act"
         android:layout_width="match_parent"

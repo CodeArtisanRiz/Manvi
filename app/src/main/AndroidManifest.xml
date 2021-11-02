@@ -12,7 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Manvi">
         <activity
+            android:name=".activity.ImageSliderActivity"
+            android:exported="false" />
+        <activity
             android:name=".activity.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.NavActivity"
             android:exported="false" />
         <activity
             android:name=".activity.DirectorActivity"

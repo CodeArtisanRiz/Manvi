@@ -23,6 +23,7 @@
         android:minHeight="?attr/actionBarSize"
         android:background="@color/colorTransparentWhite"
         app:titleTextColor="@color/black"/>
+
     <include
         layout="@layout/content_view"
         android:visibility="visible"/>

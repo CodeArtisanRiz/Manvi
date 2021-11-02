@@ -2,7 +2,6 @@ package com.t3g.manvi.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -12,7 +11,7 @@ import com.t3g.manvi.R;
 
 public class DirectorActivity extends AppCompatActivity {
 
-    Button mainAct, homeAct, allPostAct;
+    Button mainAct, homeAct, allPostAct, navAct, ImageSlideAct;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,12 +24,26 @@ public class DirectorActivity extends AppCompatActivity {
                 startActivity(new Intent(DirectorActivity.this, MainActivity.class));
             }
         });
+        navAct = findViewById(R.id.nav_act);
+        navAct.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(DirectorActivity.this, NavActivity.class));
+            }
+        });
 
         homeAct = findViewById(R.id.home_act);
         homeAct.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(DirectorActivity.this, HomeActivity.class));
+            }
+        });
+        ImageSlideAct = findViewById(R.id.img_slide_act);
+        ImageSlideAct.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(DirectorActivity.this, ImageSliderActivity.class));
             }
         });
 
