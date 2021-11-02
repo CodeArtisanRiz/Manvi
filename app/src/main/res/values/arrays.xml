@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="drawerTitles">
+        <item>About</item>
+        <item>Gallary</item>
+        <item>Share</item>
+<!--        <item>Credits</item>-->
+        <item>Privacy Policy</item>
+        <item>Terms &amp; Conditions</item>
+        <item>Feedback / Contact</item>
+        <item>Rate &amp; Review</item>
+        <item>More From t3g</item>
+
+    </string-array>
+
+    <array name="drawerIcons">
+        <item>@drawable/ic_about</item>
+        <item>@drawable/ic_gallery</item>
+        <item>@drawable/ic_share_24</item>
+<!--        <item>@drawable/credits</item>-->
+        <item>@drawable/privacy_policy</item>
+        <item>@drawable/tnc</item>
+        <item>@drawable/ic_feedback_24</item>
+        <item>@drawable/ic_rate_review_24</item>
+        <item>@drawable/ic_baseline_more_24</item>
+    </array>
+</resources>
